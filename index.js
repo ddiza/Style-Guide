@@ -1,6 +1,6 @@
 'use strict'
 
-const errormess = document.querySelector('.errormess')
+const garbage = document.querySelector('.garbage')
 const error = document.querySelector('.error')
 
 
@@ -8,9 +8,9 @@ const error = document.querySelector('.error')
 
 error.addEventListener('keydown', (e) => {
 
-    errormess.classList.remove('opacity-0')
+    garbage.classList.remove('opacity-0')
     if (error.value.length >= 6) {
-        errormess.classList.add('opacity-0')
+        garbage.classList.add('opacity-0')
     }
 })
 
